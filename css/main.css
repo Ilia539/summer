@@ -1,6 +1,6 @@
-@import "_fonts.css";
-@import "_global.css";
-@import "_overall.css";
+@import "./_fonts.css";
+@import "./_global.css";
+@import "./_overall.css";
 @import "./components/_header.css";
 @import "./components/_burger-menu.css";
 @import "./components/_letsgo.css";
