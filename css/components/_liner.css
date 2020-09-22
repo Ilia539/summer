@@ -1,0 +1,72 @@
+.liner {
+    width: 100%;
+    position: relative;
+}
+.liner::after {
+    content: '';
+    width: 100%;
+    height: 190px;
+    background-image: url('/img/cards/shape_2.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: -100px;
+    left: 0;
+}
+.liner::before {
+    content: '';
+    width: 100%;
+    height: 210px;
+    background: url('/img/mountains/shape_3.png');
+    position: absolute;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+}
+@media (max-width: 1199px) {
+    .liner::after {
+        height: 170px;
+    }
+    .liner::before {
+        height: 190px;
+    }
+}
+@media (max-width: 991px){
+    .liner::after {
+        height: 145px;
+        top: -80px;
+    }
+    .liner::before {
+        height: 170px;
+    }
+}
+@media (max-width: 767px){ 
+    .liner::after {
+        height: 145px;
+        top: -55px;
+    }
+    .liner::before {
+        height: 150px;
+    }
+}
+@media (max-width: 575px){
+    .liner::before {
+        height: 125px;
+    }
+    .liner::after {
+        height: 130px;
+        top: -48px;
+    }
+ }
+@media (max-width: 415px) {
+    .liner::after {
+        height: 95px;
+        top: -23px;
+    }
+    .liner::before {
+        height: 90px;
+    }
+}
